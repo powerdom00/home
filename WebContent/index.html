@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <link rel="icon" type="image/x-icon" href="./imgs/echo.png">
+ <link href="./css/style.css" rel="stylesheet" type="text/css">
+ <title>form homework</title>
+</head>
+
+<body>
+<h3>form homework</h3>
+<form method="post" action="recho" name="echo">
+
+<p>passi per accedere alla tua area:</p>
+<ol>
+  <li>compila qesta pagina</li>
+  <li>attendi il messaggio di conferma</li>
+  <li>inserisci il codice che ti invieremo</li>
+</ol>
+</p>
+
+<p>completando la procedura potrai:
+    <ul>
+      <li>comprare</li>
+      <li>recensire i prodotti</li>
+</ul>  
+</p>
+<p>
+  <h4> dati personali </h4> 
+  <label for="nome"> nome o ragione sociale </label><br>
+  <input type="text" name="nome" value="" 
+  	placeholder="inserisci nome" maxlength="10" autofocus required/>
+  <br>
+  <label for="cognome">cognome </label><br>
+  <input type="text" name="cognome" value="" 
+    placeholder="inserisci cognome" required/>
+  <br>
+  <label for="sesso">sesso:</label><br>
+  <select name="sesso" id="sesso">
+  <option value="uomo"> uomo </option>
+  <option value="donna"> donna </option>
+  <option value="indefinito"> non voglio specificarlo </option>
+  </select>
+  <br>
+  <label for="cf">cf/Piva </label><br>
+  <input type="text" name="cf" value="" 
+    placeholder="inserisci cf/Piva" required/>
+  <br>
+  
+  <label for="password">password </label><br>
+  <input type="text" name="password" value="" 
+    placeholder="inserisci password" required/>
+  <br>
+  
+  <label for="email">email </label><br>
+  <input type="text" name="email" value="" 
+    placeholder="inserisci email" required/>
+</p>
+
+<p>
+  <label for="stato">stato</label><br>
+  <textarea name="stato"> inserisci il tuo stato </textarea>
+</p>
+<p>
+<label> guido: </label><br>
+
+  <input type="radio" name="auto" id="auto" value="auto">
+  <label for="auto">auto</label><br>
+  <input type="radio" name="moto" id="moto" value="moto">
+  <label for="moto">moto</label>
+  <br>
+</p> 
+<p>
+<label>cosa fai nella vita?</label><br>
+<input type="checkbox" id="lavoro" name="lavoro" value="lavoro">
+  <label for="lavoro"> lavoro </label><br>
+  <input type="checkbox" id="studio" name="studio" value="studio">
+  <label for="studio"> studio</label>
+</p>
+<p>
+   <h4> indirizzo </h4> 
+   
+  <label for="interno">interno</label><br>
+  <input type="text" name="interno" value="" 
+    placeholder="inserisci interno" required/>
+  <br>
+  
+  <label for="cap">cap</label><br>
+  <input type="text" name="cap" value="" 
+    placeholder="inserisci cap" required/>
+  <br>
+  
+  <label for="città">città</label><br>
+  <input type="text" name="città" value="" 
+    placeholder="inserisci città" required/>
+  <br>
+  
+  <label for="provincia">provincia</label><br>
+  <input type="text" name="provincia" value="" 
+    placeholder="inserisci provincia" required/>
+  <br>
+  
+ <p>
+    <h4> dati di pagamento:</h4>
+    <label for="ncarta">ncarta</label><br>
+    <input type="text" name="ncarta" value="" 
+    placeholder="inserisci ncarta" required/>
+    <br>
+    <label for="scadenza">scadenza</label><br>
+    <input type="text" name="scadenza" value="" 
+    placeholder="inserisci scadenza" required/>
+    <br>
+    <label for="codice">codice</label><br>
+    <input type="text" name="codice" value="" 
+    placeholder="inserisci codice" required/> 
+    <br> 
+</p> 
+
+<p>
+  <input type="submit" value="invia">
+  <input type="reset" value="ricarica">
+</p>
+
+</form>
+
+</body>
+</html>
